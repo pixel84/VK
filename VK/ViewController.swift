@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-// some changes
+    
+//@objc
+//func keyboardShown(_ notification: Notification) {
+//    guard
+//        let keyBoardFrame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect
+//        else { return }
+//    
+//    scrollView.contentInset.bottom = keyBoardFrame.height
+//    }
 }
 
