@@ -44,6 +44,7 @@
 				E085578224EAA0C700E69B4C /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 1;
 		};
 		E085578224EAA0C700E69B4C /* Products */ = {
 			isa = PBXGroup;
@@ -93,6 +94,7 @@
 		E085577924EAA0C700E69B4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PiX;
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = shaderness;
