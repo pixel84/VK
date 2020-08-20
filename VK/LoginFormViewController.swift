@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginFormViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     
