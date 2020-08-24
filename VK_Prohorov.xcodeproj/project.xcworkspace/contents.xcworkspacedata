@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VK.xcodeproj">
+      location = "self:/Users/pixel/Desktop/VK/VK_Prohorov.xcodeproj">
    </FileRef>
 </Workspace>

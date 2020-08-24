@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		E085578524EAA0C700E69B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085578424EAA0C700E69B4C /* AppDelegate.swift */; };
 		E085578724EAA0C700E69B4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085578624EAA0C700E69B4C /* SceneDelegate.swift */; };
-		E085578924EAA0C700E69B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085578824EAA0C700E69B4C /* ViewController.swift */; };
+		E085578924EAA0C700E69B4C /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085578824EAA0C700E69B4C /* LoginFormViewController.swift */; };
 		E085578C24EAA0C700E69B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E085578A24EAA0C700E69B4C /* Main.storyboard */; };
 		E085578E24EAA0C900E69B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E085578D24EAA0C900E69B4C /* Assets.xcassets */; };
 		E085579124EAA0C900E69B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E085578F24EAA0C900E69B4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E085578124EAA0C700E69B4C /* VK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E085578124EAA0C700E69B4C /* VK_Prohorov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_Prohorov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E085578424EAA0C700E69B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E085578624EAA0C700E69B4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E085578824EAA0C700E69B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E085578824EAA0C700E69B4C /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
 		E085578B24EAA0C700E69B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E085578D24EAA0C900E69B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E085579024EAA0C900E69B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		E085578224EAA0C700E69B4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E085578124EAA0C700E69B4C /* VK.app */,
+				E085578124EAA0C700E69B4C /* VK_Prohorov.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			children = (
 				E085578424EAA0C700E69B4C /* AppDelegate.swift */,
 				E085578624EAA0C700E69B4C /* SceneDelegate.swift */,
-				E085578824EAA0C700E69B4C /* ViewController.swift */,
+				E085578824EAA0C700E69B4C /* LoginFormViewController.swift */,
 				E085578A24EAA0C700E69B4C /* Main.storyboard */,
 				E085578D24EAA0C900E69B4C /* Assets.xcassets */,
 				E085578F24EAA0C900E69B4C /* LaunchScreen.storyboard */,
@@ -71,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E085578024EAA0C700E69B4C /* VK */ = {
+		E085578024EAA0C700E69B4C /* VK_Prohorov */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E085579524EAA0C900E69B4C /* Build configuration list for PBXNativeTarget "VK" */;
+			buildConfigurationList = E085579524EAA0C900E69B4C /* Build configuration list for PBXNativeTarget "VK_Prohorov" */;
 			buildPhases = (
 				E085577D24EAA0C700E69B4C /* Sources */,
 				E085577E24EAA0C700E69B4C /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = VK;
+			name = VK_Prohorov;
 			productName = VK;
-			productReference = E085578124EAA0C700E69B4C /* VK.app */;
+			productReference = E085578124EAA0C700E69B4C /* VK_Prohorov.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E085577C24EAA0C700E69B4C /* Build configuration list for PBXProject "VK" */;
+			buildConfigurationList = E085577C24EAA0C700E69B4C /* Build configuration list for PBXProject "VK_Prohorov" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E085578024EAA0C700E69B4C /* VK */,
+				E085578024EAA0C700E69B4C /* VK_Prohorov */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E085578924EAA0C700E69B4C /* ViewController.swift in Sources */,
+				E085578924EAA0C700E69B4C /* LoginFormViewController.swift in Sources */,
 				E085578524EAA0C700E69B4C /* AppDelegate.swift in Sources */,
 				E085578724EAA0C700E69B4C /* SceneDelegate.swift in Sources */,
 			);
@@ -293,8 +293,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shaderness.VK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaderness.VK-Prohorov";
+				PRODUCT_NAME = VK_Prohorov;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,8 +311,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shaderness.VK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaderness.VK-Prohorov";
+				PRODUCT_NAME = VK_Prohorov;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E085577C24EAA0C700E69B4C /* Build configuration list for PBXProject "VK" */ = {
+		E085577C24EAA0C700E69B4C /* Build configuration list for PBXProject "VK_Prohorov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E085579324EAA0C900E69B4C /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E085579524EAA0C900E69B4C /* Build configuration list for PBXNativeTarget "VK" */ = {
+		E085579524EAA0C900E69B4C /* Build configuration list for PBXNativeTarget "VK_Prohorov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E085579624EAA0C900E69B4C /* Debug */,
